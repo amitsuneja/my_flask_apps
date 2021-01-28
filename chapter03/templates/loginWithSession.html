@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Login Cookie will store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}" />
+  </head>
+
+   <body>
+      <form action = "/saveSession" method = "POST">
+         <p><h3>Enter username</h3></p>
+         <p><input type = 'text' name = 'user'/></p>
+         <p><input type = 'submit' value = 'Login'/></p>
+      </form>  
+   </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}" />
+</head>
+<body>
+<div class="container">    
+    <div class="form-group">
+      <br>
+      <h1>BMI Calculator</h1>  
+      <form action = "http://10.0.0.4:5000/bmi" method = "post">
+         <p>Enter Height:</p>
+         <p><input class="form-control" type = "text" name = "height" /></p>
+
+         <p>Enter Mass:</p>
+         <p><input class="form-control" type = "text" name = "mass" /></p>
+
+         <p><input class="form-control btn-primary" type = "submit" value = "submit" /></p>
+      </form>
+    </div>
+    </div>      
+   </body>
+</html>

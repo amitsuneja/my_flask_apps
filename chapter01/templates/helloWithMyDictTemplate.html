@@ -1,0 +1,10 @@
+<h1>Hello multi people in table</h1>
+
+<table>
+{% for key, value in myDict.items() %}
+	<tr>
+		<th> {{key}} </th>
+		<th> {{value}} </th>
+	</tr>
+{% endfor %}
+</table>

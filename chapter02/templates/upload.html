@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>File upload program</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href="{{ url_for('static', filename='bootstrap.min.css') }}" />
+  </head>
+
+   <body>
+    <form action = "http://20.55.101.111:5000/upload" method = "POST" 
+        enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+    </form>
+   </body>
+</html>

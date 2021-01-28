@@ -1,0 +1,15 @@
+<h1>Hello {{name}}</h1>
+
+<div style="background: #EFEFEF; padding: 20px;">
+{% if name == 'Frank': %}
+<h2>Your name is {{name}}.</h2>
+{% else %}
+<h2>Your name is not Frank</h2>
+{% endif %}
+</div>
+
+<ul>
+{% for item in x: %}
+<li>{{item}}</li> 
+{% endfor %}
+</ul>
